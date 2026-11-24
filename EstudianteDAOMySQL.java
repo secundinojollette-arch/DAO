@@ -3,9 +3,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EstudianteDAOMySQL implements DAO<Estudiante> {
-    private static final String URL = "jdbc:mysql://localhost:3306/universidad_db?useSSL=false&serverTimezone=UTC";
+    private static final String URL = "jdbc:mysql://localhost:3306/ejemplo";
     private static final String USER = "root";
-    private static final String PASS = ""; // Credencial por defecto en XAMPP
+    private static final String PASS = "28080713";; // Credencial por defecto en XAMPP
 
     @Override
     public void guardar(Estudiante est) {
